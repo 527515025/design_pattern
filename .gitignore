@@ -1,0 +1,22 @@
+
+/.settings
+/bin
+*/target/*
+/logs
+*/out/
+
+# filter config files, except .gitignore
+*.MF
+!.gitignore
+*.iml
+*.exe
+# eclipse ignore
+.project
+.classpath
+# IDEA ignore
+.idea
+.class
+*.class
+*.log
+*.prefs
+!application.properties
