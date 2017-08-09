@@ -9,10 +9,6 @@
 *.MF
 !.gitignore
 *.iml
-*.exe
-# eclipse ignore
-.project
-.classpath
 # IDEA ignore
 .idea
 .class
