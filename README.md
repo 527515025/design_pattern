@@ -7,31 +7,37 @@
 
 
 #创建类代码示例
-
 ##工厂方法模式 、抽象工厂模式
 factory 是工厂方法模式、抽象工厂方法、简单工厂方法的代码示例
+博客：工厂方法模式 地址：http://blog.csdn.net/u012373815/article/details/52454734
+博客：工厂方法模式扩展 地址：http://blog.csdn.net/u012373815/article/details/52454923
+博客：抽象工厂方法 地址：http://blog.csdn.net/u012373815/article/details/52455243
 
 ##单例模式
 * singleton 是单例模式的代码示例
 
 ##原型模式
 * prototype 是原型模式的代码示例
+博客：原型模式 地址：http://blog.csdn.net/u012373815/article/details/75331630
 
 ##建造者模式
 * bulid 是建造者模式的代码示例
 
-#结构类代码示例
 
+#结构类代码示例
 ##代理模式
 * proxy 是代理模式的代码示例
+博客：代理模式 地址：http://blog.csdn.net/u012373815/article/details/52463345
+博客：代理模式扩展 地址：http://blog.csdn.net/u012373815/article/details/52464341
 
 #行为类代码示例
-
 ##中介者模式
 * intermediary 是中介者模式 的代码示例
+博客：中介者模式 地址：http://blog.csdn.net/u012373815/article/details/76944175
 
 ##模版方法模式
 * template 是模版方法模式的代码示例
+博客：模版方法模式 地址：http://blog.csdn.net/u012373815/article/details/52464460
 
 
 
