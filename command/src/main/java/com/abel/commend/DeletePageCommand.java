@@ -8,9 +8,9 @@ public class DeletePageCommand extends Command {
         // 找到美工组
         super.pg.find();
         //删除一个页面
-        super.rg.delete();
+        super.pg.delete();
         // 给出计划
-        super.rg.plan();
+        super.pg.plan();
 
     }
 }

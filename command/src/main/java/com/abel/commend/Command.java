@@ -6,7 +6,7 @@ import com.abel.example.RequirementGroup;
 
 /**
  * Created by yangyibo on 17/10/17.
- *抽象命令类
+ * 抽象命令类
  *
  * 根据字符串判断相关业务逻辑不是一个非常友好的方案，应该对发出的string 进行封装，每个命令就是一个对象，避免交流误差。
  */
