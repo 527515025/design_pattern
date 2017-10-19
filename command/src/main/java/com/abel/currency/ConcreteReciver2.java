@@ -6,6 +6,6 @@ package com.abel.currency;
 public class ConcreteReciver2 extends Receiver{
     //每个接收者都必须处理一定的业务逻辑
     public void doSomething() {
-
+        System.out.println("执行者2 ，执行命令");
     }
 }
