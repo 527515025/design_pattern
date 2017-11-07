@@ -20,9 +20,5 @@ public class Client {
         pg.find();
         pg.delete();
         pg.plan();
-
-
-
-
     }
 }
