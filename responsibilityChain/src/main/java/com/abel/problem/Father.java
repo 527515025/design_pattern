@@ -1,4 +1,4 @@
-package com.abel.mode;
+package com.abel.problem;
 
 /**
  * Created by yangyibo on 17/11/7.、

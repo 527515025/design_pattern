@@ -1,4 +1,4 @@
-package com.abel.mode;
+package com.abel.problem;
 
 import java.util.ArrayList;
 import java.util.List;
