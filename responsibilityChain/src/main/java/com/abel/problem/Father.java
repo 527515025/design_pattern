@@ -1,7 +1,7 @@
 package com.abel.problem;
 
 /**
- * Created by yangyibo on 17/11/7.、
+ * Created by yangyibo on 17/11/7.
  * 父亲类
  */
 public class Father implements IHandler {
