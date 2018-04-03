@@ -18,6 +18,9 @@ public class Women implements IWomen {
                 break;
             case 3:
                 this.request = "母亲的请求是：" + request;
+                break;
+            case 4:
+                this.request = "奶奶的请求是：" + request;
         }
     }
 
