@@ -13,7 +13,7 @@ public abstract class Handler {
 
 
     //当前能处理的等级
-    private int level = 0;
+    private int level;
     //下一个责任人
     private Handler nextHandler;
 
