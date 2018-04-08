@@ -5,7 +5,7 @@ package com.abel.problem;
  */
 public class Women implements IWomen {
     private Integer type = 0;
-    private String request = "";
+    private String request ;
 
     public Women(Integer type, String request) {
         this.type = type;
@@ -15,7 +15,7 @@ public class Women implements IWomen {
     /**
      *  获取女人的个人情况
      *
-     * @return 1 未婚 2 出嫁 3 守寡
+     * @return 用数字代表女性的不同状态：0 未婚 1 出嫁 2 守寡
      */
     public int getType() {
         return this.type;

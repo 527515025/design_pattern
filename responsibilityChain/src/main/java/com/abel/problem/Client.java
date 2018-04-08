@@ -13,21 +13,21 @@ public class Client {
         Random rand = new Random();
         List<IWomen> womens = new ArrayList();
         for (int i = 0; i < 5; i++) {
-            womens.add(new Women(rand.nextInt(4), "我要去逛街"));
+            womens.add(new Women(rand.nextInt(3), "我要去逛街"));
         }
         IHandler father = new Father();
         IHandler husband = new Husband();
         IHandler son = new Son();
         for (IWomen women : womens) {
-            if (women.getType() == 1) {
+            if (women.getType() == 0) {
                 // 未婚少女请示父亲
                 System.out.println("\n--------女儿向父亲请示-------");
                 father.HandleMessage(women);
-            } else if (women.getType() == 2) {
+            } else if (women.getType() == 1) {
                 //已婚美女请示老公
                 System.out.println("\n--------老婆向老公请示 -------");
                 husband.HandleMessage(women);
-            } else if (women.getType() == 3) {
+            } else if (women.getType() == 2) {
                 //妈妈向儿子
                 System.out.println("\n--------妈妈向儿子请示-------");
                 son.HandleMessage(women);
