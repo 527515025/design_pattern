@@ -11,7 +11,8 @@ public class Client {
         Random rand = new Random();
         ArrayList<IWomen> arrayList = new ArrayList();
         for (int i = 0; i < 5; i++) {
-            arrayList.add(new Women(rand.nextInt(5), "我要出去逛街"));
+            arrayList.add(new Women(rand.nextInt(4), "我要出去逛街"));
+
         }
 
         //构建责任链
