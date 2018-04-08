@@ -7,10 +7,10 @@ import com.abel.problem.IWomen;
  */
 public abstract class Handler {
 
-    public final static int FATHER_LEVEL_REQUEST = 1;
-    public final static int HUSBAND_LEVEL_REQUEST = 2;
-    public final static int SON_LEVEL_REQUEST = 3;
-    public final static int GRANDSON_LEVEL_REQUEST = 4;
+    public final static int FATHER_LEVEL_REQUEST = 0;
+    public final static int HUSBAND_LEVEL_REQUEST = 1;
+    public final static int SON_LEVEL_REQUEST = 2;
+    public final static int GRANDSON_LEVEL_REQUEST = 3;
 
     //当前能处理的等级
     private int level;
