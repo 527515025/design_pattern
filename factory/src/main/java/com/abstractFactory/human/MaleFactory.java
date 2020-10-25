@@ -11,6 +11,7 @@ import com.abstractFactory.human.sex.MaleYellowHuman;
  */
 public class MaleFactory implements HumanFatory{
 
+　
 	@Override
 	public Human createYellowHuman() {
 		return new MaleYellowHuman();

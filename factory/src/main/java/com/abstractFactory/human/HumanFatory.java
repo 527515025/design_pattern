@@ -11,17 +11,17 @@ public interface HumanFatory {
 	 * 制造黄种人
 	 * @return
 	 */
-	public Human createYellowHuman();
+	 Human createYellowHuman();
 
 	/**
 	 * 制造黑种人
 	 * @return
 	 */
-	public Human createBlackHuman();
+	 Human createBlackHuman();
 	
 	/**
 	 * 制造白种人
 	 * @return
 	 */
-	public Human createWhiteHuman();
+	 Human createWhiteHuman();
 }
