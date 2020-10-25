@@ -6,11 +6,22 @@
 
     <groupId>com.abel</groupId>
     <artifactId>design_pattern</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
 
 
     <modules>
         <module>responsibilityChain</module>
+        <module>bridgePattern</module>
+        <module>build</module>
+        <module>command</module>
+        <module>factory</module>
+        <module>intermediary</module>
+        <module>prototype</module>
+        <module>proxy</module>
+        <module>singleton</module>
+        <module>template</module>
+
     </modules>
-    
+
 </project>
