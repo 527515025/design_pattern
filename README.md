@@ -97,8 +97,14 @@ Composite/Aggregate Reuse Principle（CARP / CRP），合成/聚合复用原则�
 * 博客：模版方法模式 地址：http://blog.csdn.net/u012373815/article/details/52464460
 * 代码：https://github.com/527515025/design_pattern/tree/master/template
 
+## 责任链莫斯
+* responsibilityChain 是责任链模式的代码示例
 
+## 命令模式
+* responsibilityChain 是责任链模式的代码示例
 
+## 桥接模式
+* bridgePattern 是桥接模式的代码示例
 
 所有案例来自《设计模式之禅（第2版）》
 未完待续。。。
