@@ -79,7 +79,7 @@ Composite/Aggregate Reuse Principle（CARP / CRP），合成/聚合复用原则�
 
 ##建造者模式
 * bulid 是建造者模式的代码示例
-
+* 代码：https://github.com/527515025/design_pattern/tree/master/build
 
 #结构类代码示例
 ##代理模式
@@ -95,6 +95,7 @@ Composite/Aggregate Reuse Principle（CARP / CRP），合成/聚合复用原则�
 ##模版方法模式
 * template 是模版方法模式的代码示例
 * 博客：模版方法模式 地址：http://blog.csdn.net/u012373815/article/details/52464460
+* 代码：https://github.com/527515025/design_pattern/tree/master/template
 
 
 
