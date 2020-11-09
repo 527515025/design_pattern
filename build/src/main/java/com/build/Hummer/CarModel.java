@@ -8,16 +8,20 @@ import java.util.ArrayList;
  *
  */
 public abstract class CarModel {
-	// 模型拼装的顺序
+	/**
+	 * 模型拼装的顺序
+ 	 */
 	private ArrayList<String> sequence = new ArrayList<String>();
 
-	// 是模型首先得能启动啊
-	protected abstract void start(); //
+	/**
+	 * 是模型首先得能启动啊
+	 */
+	protected abstract void start();
 
 	/**
 	 * 能跑还不算，还能停才是真本事
 	 */
-	protected abstract void stop(); //
+	protected abstract void stop();
 
 	/**
 	 * 喇叭也是要能响的
@@ -27,7 +31,7 @@ public abstract class CarModel {
 	/**
 	 * 虽然是假车，没有引擎，但是引擎的声音还是要模仿一下
 	 */
-	protected abstract void engineBoom(); //
+	protected abstract void engineBoom();
 
 	/**
 	 * 模版方法实现对基本方法的调度 好了车得能跑，不管你是推着跑还是装电池
