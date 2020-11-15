@@ -9,7 +9,7 @@ public class StoppingState extends LiftState {
     public void open() {
         super.context.setLiftState(Context.openningState);
         //设置为停止状态
-        super.context.getLiftState().run();
+        super.context.getLiftState().open();
     }
 
     @Override

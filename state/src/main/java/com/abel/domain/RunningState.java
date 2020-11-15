@@ -24,6 +24,6 @@ public class RunningState extends LiftState {
     public void stop() {
         super.context.setLiftState(Context.stoppingState);
         //设置为停止状态
-        super.context.getLiftState().run();
+        super.context.getLiftState().stop();
     }
 }
