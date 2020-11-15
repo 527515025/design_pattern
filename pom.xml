@@ -21,6 +21,7 @@
         <module>proxy</module>
         <module>singleton</module>
         <module>template</module>
+        <module>state</module>
 
     </modules>
 
