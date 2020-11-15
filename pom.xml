@@ -22,6 +22,7 @@
         <module>singleton</module>
         <module>template</module>
         <module>state</module>
+        <module>visitor</module>
 
     </modules>
 
