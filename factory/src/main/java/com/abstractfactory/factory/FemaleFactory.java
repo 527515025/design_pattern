@@ -8,7 +8,7 @@ import com.abstractfactory.human.sex.FemaleYellowHuman;
 /**
  * 生产女人工厂
  */
-public class FemaleFactory implements HumanFatory {
+public class FemaleFactory implements HumanFactory {
 
 	@Override
 	public Human createYellowHuman() {

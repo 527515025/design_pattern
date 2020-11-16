@@ -8,7 +8,7 @@ import com.abstractfactory.human.Human;
  * @author yangyibo
  *
  */
-public interface HumanFatory {
+public interface HumanFactory {
 	/**
 	 * 制造黄种人
 	 * @return

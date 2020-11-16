@@ -2,16 +2,16 @@ package com.abstractfactory;
 
 import com.abstractfactory.factory.FemaleFactory;
 import com.abstractfactory.human.Human;
-import com.abstractfactory.factory.HumanFatory;
+import com.abstractfactory.factory.HumanFactory;
 import com.abstractfactory.factory.MaleFactory;
 
 public class Nvwa {
 
 	public static void main(String[] args) {
 		// 第一条生产线生产男型
-		HumanFatory maleFactory = new MaleFactory();
+		HumanFactory maleFactory = new MaleFactory();
 		// 第二条生产线，生产女性
-		HumanFatory femaleFactory = new FemaleFactory();
+		HumanFactory femaleFactory = new FemaleFactory();
 
 		Human maleYellowHuman = maleFactory.createYellowHuman();
 		Human femaleYellowHuman = femaleFactory.createYellowHuman();

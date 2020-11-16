@@ -10,7 +10,7 @@ import com.abstractfactory.human.sex.MaleYellowHuman;
  * @author yangyibo
  *
  */
-public class MaleFactory implements HumanFatory{
+public class MaleFactory implements HumanFactory {
 
 	@Override
 	public Human createYellowHuman() {
