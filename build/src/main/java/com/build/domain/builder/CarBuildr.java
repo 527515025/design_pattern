@@ -1,9 +1,12 @@
-package com.build.Buildr;
+package com.build.domain.builder;
 
 import java.util.ArrayList;
 
-import com.build.Hummer.CarModel;
+import com.build.domain.model.CarModel;
 
+/**
+ * 汽车组装类
+ */
 public abstract class CarBuildr {
 
 	/**

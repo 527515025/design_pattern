@@ -1,7 +1,8 @@
-package com.build.Hummer;
+package com.build.domain.model;
 
 /**
- * 
+ *
+ * 奔驰车模型
  * @author yangyibo
  *
  */

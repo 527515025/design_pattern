@@ -1,12 +1,12 @@
-package com.build.Buildr;
+package com.build.domain.builder;
 
 import java.util.ArrayList;
 
-import com.build.Hummer.BenzModel;
-import com.build.Hummer.CarModel;
+import com.build.domain.model.BenzModel;
+import com.build.domain.model.CarModel;
 
 /**
- * 奔驰车模型
+ * 奔驰车组装者
  * @author yangyibo
  *
  */

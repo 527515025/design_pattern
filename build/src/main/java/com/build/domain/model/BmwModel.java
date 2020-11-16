@@ -1,11 +1,11 @@
-package com.build.Hummer;
+package com.build.domain.model;
 
 /**
- * 
+ * 宝马车模型
  * @author yangyibo
  *
  */
-public class BMWModel extends CarModel{
+public class BmwModel extends CarModel{
 
 	@Override
 	protected void start() {

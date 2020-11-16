@@ -1,4 +1,4 @@
-package com.build.Hummer;
+package com.build.domain.model;
 
 import java.util.ArrayList;
 
